@@ -2,7 +2,7 @@
 layout: project 
 title: Portones eléctricos
 subheading: Los portones más rápidos y fiables del mercado
-frontimagesrc: "https://i.imgur.com/QPACVnd.jpg"
+frontimagesrc: "https://raw.githubusercontent.com/Admidata/Resources/master/Products/Gates/front-image.jpg"
 frontimagealt: "Image is missing"
 
 tags: 
@@ -11,13 +11,13 @@ tags:
 icon: bolt
 
 carousel:
- - src: https://i.imgur.com/OrvUyb6.png
-   alt: image from placehold.it
- - src: https://i.imgur.com/3NDFzGD.png
-   alt: image from placehold.it
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Gates/gate1.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Gates/gate2.png
+   alt: "Image is missing"
    title: Motor ultra rápido
- - src: https://i.imgur.com/AvZEpAn.png
-   alt: image from placehold.it 
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Gates/gate3.png
+   alt: "Image is missing"
 ---
 
 Como empresa, nos dedicamos también a la instalación y mantención de motores eléctricos, por lo general de portones

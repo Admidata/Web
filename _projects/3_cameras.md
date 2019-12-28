@@ -2,7 +2,7 @@
 layout: project 
 title: Cámaras de seguridad
 subheading: Las mejores redes de cámaras de vigilancia
-frontimagesrc: "https://i.imgur.com/50P2phG.jpg"
+frontimagesrc: "https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/front-image.jpg"
 frontimagealt: "Image is missing"
 
 tags: 
@@ -11,26 +11,26 @@ tags:
 icon: video-camera
 
 carousel:
- - src: https://i.imgur.com/tXIsX0M.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera1.png
+   alt: "Image is missing"
    title: Cámara rotatoria
    caption: Alta seguridad
- - src: https://i.imgur.com/4cuDVgF.jpg
-   alt: Image is missing
- - src: https://i.imgur.com/VHPFgex.jpg
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera2.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera3.png
+   alt: "Image is missing"
    title: Sistema CCTV
- - src: https://i.imgur.com/HJIuW2S.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera4.png
+   alt: "Image is missing"
    title: Sistema CCTV
- - src: https://i.imgur.com/gJjp17B.png
-   alt: Image is missing
- - src: https://i.imgur.com/1cZwhvo.png
-   alt: Image is missing
- - src: https://i.imgur.com/uBh7c1N.png
-   alt: Image is missing
- - src: https://i.imgur.com/aqmrpbc.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera5.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera6.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera7.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Cameras/camera8.png
+   alt: "Image is missing"
 ---
 
 Realizamos mantenimento e instalaciones **completas** de sistemas de vigilancia (CCTV), lo cual incluye software para la visualización

@@ -2,7 +2,7 @@
 layout: project 
 title: Barreras multi-propósito
 subheading: Confiables barreras que van desde el control vehícular hasta lo que usted necesite
-frontimagesrc: "https://i.imgur.com/8jIRLIA.jpg"
+frontimagesrc: "https://raw.githubusercontent.com/Admidata/Resources/master/Products/Barriers/front-image.jpg"
 frontimagealt: "Image is missing"
 
 tags: 
@@ -11,16 +11,16 @@ tags:
 icon: car
 
 carousel:
- - src: https://i.imgur.com/9h7EUPR.png
-   alt: Image is missing
- - src: https://i.imgur.com/EVcJ7lH.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Barriers/barrier1.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Barriers/barrier2.png
+   alt: "Image is missing"
    title: Caja de barrera
    caption: Aqui se ubica el motor del brazo
- - src: https://i.imgur.com/K5We7LG.png
-   alt: Image is missing
- - src: https://i.imgur.com/bLEbRX4.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Barriers/barrier3.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Barriers/barrier4.png
+   alt: "Image is missing"
    title: Interior de la caja
    caption: El mecanísmo del brazo
 ---

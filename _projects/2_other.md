@@ -2,7 +2,7 @@
 layout: project 
 title: Otros
 subheading: Algunos de los demás productos y servicios que ofrece nuestra empresa
-frontimagesrc: "https://i.imgur.com/50P2phG.jpg"
+frontimagesrc: "https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/front-image.jpg"
 frontimagealt: "Image is missing"
 
 tags: 
@@ -12,20 +12,20 @@ video: nP0nFqQoACU
 icon: bars
 
 carousel:
- - src: https://i.imgur.com/uhbQDuB.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other1.png
+   alt: "Image is missing"
    title: Auténticación de huella
    caption: Alta seguridad
- - src: https://i.imgur.com/nylQGuf.png
-   alt: Image is missing
- - src: https://i.imgur.com/kwYC1wc.png
-   alt: Image is missing
- - src: https://i.imgur.com/96nizcu.png
-   alt: Image is missing
- - src: https://i.imgur.com/nwbKiqQ.png
-   alt: Image is missing
- - src: https://i.imgur.com/M9s4C72.png
-   alt: Image is missing
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other2.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other3.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other4.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other5.png
+   alt: "Image is missing"
+ - src: https://raw.githubusercontent.com/Admidata/Resources/master/Products/Other/other6.png
+   alt: "Image is missing"
 ---
 
 En nuestra empresa contamos con técnicos capacitados y certtificados, para así poder brindar a nuestros clientes la 
