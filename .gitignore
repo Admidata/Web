@@ -1,12 +1,14 @@
 # Build Files
 _site
+.idea
 .sass-cache
 .jekyll-metadata
 _config_git.yml
 .jekyll-cache
 .nojekyll
-.start.bat
-.start.sh
+start.bat
+start.sh
+restart.sh
 
 # Demo Only Files
 blog-style-2.html
