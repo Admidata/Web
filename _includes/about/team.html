@@ -1,0 +1,67 @@
+<!-- Team Members -->
+
+<div class="row">
+	<div class="col-lg-12">
+        <h2 class="page-header" align="center">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i> Clientes satisfechos
+        </h2>
+	</div>
+</div>
+
+<br/>
+
+{% for member in site.members | limit: 100 %}
+<div class="col-md-4 col-sm-6">
+    <div class="thumbnail">
+        <img class="img-responsive" src="{{ member.image }}" alt="Photograph of {{member.name}}.">
+        <div class="caption">
+            <h3>{{ member.name }}<br>
+                <small>{{ member.title }}</small>
+            </h3>
+            <p>{{ member.description }}</p>
+            <ul class="list-inline">
+                {% for slink in member.socialmedia %}
+                <li><a href="{{slink[1]}}" target="_blank"><i class="fa fa-2x fa-{{slink[0]}}"></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
+<div class="row">
+{% for proyect in site.proyects | limit: 100 %}
+<div class="col-md-4 col-sm-6">
+    <div class="thumbnail">
+        <img class="img-responsive" src="{{ member.image }}" alt="Image is missing.">
+        <div class="caption">
+            <h3>{{ member.name }}<br>
+                <small>{{ member.title }}</small>
+            </h3>
+            <p>{{ member.description }}</p>
+            <ul class="list-inline">
+                {% for slink in member.socialmedia %}
+                <li><a href="{{slink[1]}}" target="_blank"><i class="fa fa-2x fa-{{slink[0]}}"></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+<div class="well">
+    <div class="row">
+        <div class="col-md-8">
+            <p>
+                Contámos con una amplia variedad de servicios no sólo limitados a la seguridad mediante la instalación
+                de cámaras: Realizamos cierres perimetrales, instalación de barreras de acceso vehícular, instalación
+                de alarmas contra incendios, entre muchos otros!
+            </p>
+        </div>
+        <div class="col-md-4">
+            <a class="btn btn-lg btn-primary btn-block" href="{{ site.baseurl }}/services/">Nuestros Servicios</a>
+        </div>
+    </div>
+</div>
+<hr/>
+
+<!-- Call to Action Section -->

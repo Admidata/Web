@@ -1,0 +1,21 @@
+---
+layout: default
+title: Productos
+subheading: Algunas imagenes tomadas por la empresa, de los propios productos que ofrecemos
+---
+<div class="row">
+    {% assign sorted = (site.projects | sort: 'date') | reverse %}
+    {% for project in sorted limit:20 %}
+    <div class="col-md-4 col-sm-6">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header" align="center"><i class="fa fa-{{ project.icon }}"></i> {{ project.title }}</h3>
+            </div>
+        </div>
+        <a href="{{ project.url | prepend: site.baseurl }}">
+            <img class="img-responsive img-portfolio img-hover well" src="{{ project.frontimagesrc | default: site.modern.defaults.portfolio.frontimagesrc  }}" alt="{{ project.frontimagealt }}">
+        </a>
+    </div>
+    {% endfor %}
+</div>
+

@@ -1,0 +1,95 @@
+---
+layout: default
+title: Contacto
+subheading: Revise la información de nuestra empresa y póngase en contácto
+---
+<!-- Content Row -->
+<div class="row">
+	<!-- Map Column -->
+	<div class="col-md-8">
+		<!-- Embedded Google Map -->
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621478.029774298!2d-73.5979520938887!3d-37.46191951494798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9668484b3b386227%3A0xc8e553de0ce0c351!2sBio%20Bio%2C%20Chile!5e0!3m2!1sen!2sus!4v1577172847082!5m2!1sen!2sus" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+	</div>
+	<!-- Contact Details Column -->
+	<div class="col-md-4">
+		<h3><i class="fa fa-user" aria-hidden="true"></i> Detalles de contacto</h3>
+		<p><i class="fa fa-globe" aria-hidden="true"></i>
+			 <abbr title="¿En dónde trabajamos?">Locación</abbr>:
+			Operamos principalmente en la región del Bio Bio, sin embargo, realizamos labores fuera de la VIII
+			región esporádicamente.
+		</p>
+		<p>
+			No dude en contactárnos para hacer negocios!
+			<br>
+		</p>
+
+		<p><i class="fa fa-phone"></i> 
+			<abbr title="Fundador">Diego Jara</abbr>: 9 5905 8901
+		</p>
+		<p><i class="fa fa-phone"></i>
+			<abbr title="Fundadora">Carola Benavente</abbr>: 9 5905 9526
+		</p>
+		<p><i class="fa fa-envelope-o"></i> 
+			<abbr title="Email">Diego Jara</abbr>: <a href="mailto:name@example.com">djara@admidata.cl</a>
+		</p>
+		<p><i class="fa fa-envelope-o"></i>
+			<abbr title="Email">Carola Benavente</abbr>: <a href="mailto:name@example.com">cbenavente@admidata.cl</a>
+		</p>
+		<p><i class="fa fa-clock-o"></i> 
+			<abbr title="Horario de atención">Horario</abbr>: Lunes a Viernes: 9:00 AM to 5:00 PM</p>
+		<ul class="list-unstyled list-inline list-social-icons">
+			<li>
+				<a href="https://www.facebook.com/admidataeirl/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- /.row -->
+
+<!-- Contact Form -->
+<!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+<div class="row">
+	<div class="col-md-8">
+		<hr/>
+		<h3><i class="fa fa-pencil-square-o"></i>
+			Envíenos un mensaje:
+		</h3>
+		<form name="sentMessage" id="contactForm" action="https://api.slapform.com/{{ site.email }}">
+			<div class="control-group form-group">
+				<div class="controls">
+					<label>Nombre y apellido:</label>
+					<input type="text" class="form-control" id="name"  required data-validation-required-message="Please enter your name.">
+					<p class="help-block"></p>
+				</div>
+			</div>
+			<div class="control-group form-group">
+				<div class="controls">
+					<label>Número de teléfono:</label>
+					<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+				</div>
+			</div>
+			<div class="control-group form-group">
+				<div class="controls">
+					<label>Correo electrónico:</label>
+					<input type="email" class="form-control" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+				</div>
+			</div>
+			<div class="control-group form-group">
+				<div class="controls">
+					<label>Mensaje:</label>
+					<textarea rows="10" cols="100" class="form-control" id="message" name="message" required data-validation-required-message="Please enter your message" maxlength="999"></textarea>
+				</div>
+			</div>
+			<div id="success"></div>
+			<!-- For success/fail messages -->
+			<button type="submit" class="btn btn-primary">Enviar mensaje</button>
+		</form>
+	</div>
+
+</div>
+<!-- /.row -->
+		
+<!-- Contact Form JavaScript -->
+<!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+<script src="{{site.url | append: site.baseurl}}js/jqBootstrapValidation.js"></script>
+<script src="{{site.url | append: site.baseurl}}js/contact_me.js"></script>

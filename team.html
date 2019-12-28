@@ -1,0 +1,22 @@
+---
+layout: default
+title: Team Members
+permalink: /about/team/
+header_imagesrc: http://placehold.it/1200x300
+header_imagealt: placeholder image from placehold.it
+---
+<hr />
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-list" aria-hidden="true"></i> Productos</h3>
+    </div>
+    {% assign sorted = (site.projects | sort: 'date') | reverse  %}
+    {% for project in sorted limit:6 %}
+    <div class="col-md-4 col-sm-6">
+        <a href="{{ project.url | prepend: site.baseurl }}">
+            <img class="img-responsive img-portfolio img-hover" src="{{ project.frontimagesrc | default: site.modern.defaults.portfolio.frontimagesrc  }}" alt="{{ project.frontimagealt }}">
+        </a>
+    </div>
+    {% endfor %}
+</div>
+

@@ -1,0 +1,10 @@
+# text - What ever you want to appear between the <a></a>
+# rel value - see source: http://www.w3schools.com/tags/att_a_rel.asp
+# url - link to the document, blog could be "/blog/", remember to use rel: external if you dont want the baseurl appended
+- text: '<i class="fa fa-book "></i> Contácto'
+  url: '/contact'
+- text: '<i class="fa fa-book "></i> Términos de servicio'
+  url: '/tos'
+  rel: 'license'
+- text: '<i class="fa fa-book "></i> Licencia'
+  url: '/licence'
