@@ -61,6 +61,8 @@ collections:
      permalink: /portfolio/:categories/:title.html
    members:
      output: false
+   brands:
+     output: false
 
 # Octopress settings
 post_ext: md

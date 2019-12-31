@@ -1,0 +1,27 @@
+<!-- Brands listing -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header" align="center">
+            <i class="fa fa-tags" aria-hidden="true"></i> Marcas
+        </h2>
+    </div>
+</div>
+
+<br/>
+
+{% for brand in site.brands | limit: 100 %}
+<div class="col-md-4 col-sm-6">
+    <div class="thumbnail">
+        <img class="img-responsive" src="{{ brand.image }}" alt="Photograph of {{brand.name}}.">
+        <div class="caption">
+            <h3>{{ brand.name }}</h3>
+            <ul class="list-inline">
+                {% for slink in brand.socialmedia %}
+                <li><a href="{{slink[1]}}" target="_blank"><i class="fa fa-2x fa-{{slink[0]}}"></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
