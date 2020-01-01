@@ -1,0 +1,163 @@
+<!-- Page has been embed due to some problems between jekyll & github's widget script -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="author" content="" />
+    <meta name="copyright" content="© 2020, " />
+
+
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Revisiones</title>
+
+    <link rel="icon" type="image/icon" href="/favicon.ico"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/12.0.0/lazyload.min.js"></script>
+
+    <script src="/js/auth.js" type="text/javascript"></script>
+    <script src="/js/github.commits.widget.js" type="text/javascript"></script>
+</head>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">ADMIDATA</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/about/">Nosotros</a>
+                </li>
+                <li>
+                    <a href="/services/">Servicios</a>
+                </li>
+                <li>
+                    <a href="/portfolio/">Productos</a>
+                </li>
+                <li>
+                    <a href="/brands/">Marcas</a>
+                </li>
+                <li>
+                    <a href="/contact/">Contacto</a>
+                </li>
+                <li>
+                    <a href="/revisions/">Revisiones</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Revisiones
+                <small>Control de versiones público de la web de nuestra empresa, porque somos Open Source!</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="http://localhost:4000/">Home</a></li>
+                <li  class="current">Revisiones<meta property="position" content="1" /></li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="content-background">
+        <div class="container">
+            <h3>
+                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                <a href="https://github.com/Admidata/Web" target="_blank"><i class="fa fa-github "></i></a>
+                Admidata/Web
+            </h3>
+
+            <div id="Web"></div>
+            <script type="text/javascript">
+                $(function() {
+                    $('#Web').githubInfoWidget({
+                        user: 'Admidata',
+                        repo: 'Web',
+                        branch: 'master',
+                        last: 10,
+                        limitMessageTo: 1000
+                    }, Authors);
+                });
+            </script>
+        </div>
+        <div class="container">
+            <h3>
+                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                <a href="https://github.com/Admidata/Resources" target="_blank"><i class="fa fa-github "></i></a>
+                Admidata/Resources
+            </h3>
+
+            <div id="Recursos"></div>
+            <script type="text/javascript">
+                $(function() {
+                    $('#Recursos').githubInfoWidget({
+                        user: 'Admidata',
+                        repo: 'Resources',
+                        branch: 'master',
+                        last: 10,
+                        limitMessageTo: 1000
+                    }, Authors);
+                });
+            </script>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; ADMIDATA 2020</p>
+            </div>
+            <div class="col-md-6">
+
+                <ul class="list-inline" style="text-align:right">
+
+
+                    <li class="nav-item"><a class="nav-link" href="/contact" rel=""><i class="fa fa-book "></i> Contácto</a></li>
+
+
+
+                    <li class="nav-item"><a class="nav-link" href="/tos" rel="license"><i class="fa fa-book "></i> Términos de servicio</a></li>
+
+
+
+                    <li class="nav-item"><a class="nav-link" href="/licence" rel=""><i class="fa fa-book "></i> Licencia</a></li>
+
+
+
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/Admidata" rel=""><i class="fa fa-github "></i> Github</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
