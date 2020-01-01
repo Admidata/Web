@@ -4,7 +4,7 @@ email: djara@admidata.cl
 description: >
   Página web de Admidata EIRL, empresa de seguridad y teconología.
 baseurl: ""
-url: ""
+url: "http://admidata.bgmbox.com/"
 repository: 'egeis/jekyll-modern-business'
 category_dir: 'blog'
 
