@@ -22,7 +22,7 @@ kramdown:
 highlighter: rouge
 
 # Outputting
-permalink: /:categories/:title/
+permalink: pretty
 
 # Build Settings
 gems:
