@@ -6,7 +6,5 @@
 - text: '<i class="fa fa-book "></i> Términos de servicio'
   url: '/tos'
   rel: 'license'
-- text: '<i class="fa fa-book "></i> Licencia'
-  url: '/licence'
 - text: '<i class="fa fa-github "></i> Github'
   url: 'https://github.com/Admidata'
